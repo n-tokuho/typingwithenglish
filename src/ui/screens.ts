@@ -35,10 +35,19 @@ export function renderStartScreen(onStart: () => void): HTMLElement {
 /**
  * Builds the empty typing-screen shell. The active sentence and progress are
  * injected into the `.typing__stage` node on each update.
+ *
+ * @param controls Optional control bar (e.g. sound controls) pinned at the top.
  */
-export function renderTypingScreen(): HTMLElement {
+export function renderTypingScreen(controls?: HTMLElement): HTMLElement {
   const screen = document.createElement("div");
   screen.className = "screen screen--typing";
+
+  if (controls) {
+    const toolbar = document.createElement("div");
+    toolbar.className = "typing__toolbar";
+    toolbar.appendChild(controls);
+    screen.appendChild(toolbar);
+  }
 
   const stage = document.createElement("div");
   stage.className = "typing__stage";
