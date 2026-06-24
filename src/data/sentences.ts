@@ -1932,4 +1932,145 @@ export const SENTENCES: Sentence[] = [
     source: "speech",
     attribution: "Michelle Obama, DNC Speech (2016)",
   },
+  {
+    id: "c121",
+    en: "Is this keyboard just for display, or can I actually buy it right here?",
+    ja: "このキーボードって展示品なの?それともここで買えちゃう感じ?",
+    notes: [
+      "for display = 展示用の、見本の。",
+      "right here = まさにこの場で。",
+    ],
+    words: [
+      { word: "display", meaning: "展示、陳列" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c122",
+    en: "Any chance you could knock another twenty bucks off the price?",
+    ja: "もう20ドルくらい安くしてもらえたりしない?",
+    notes: [
+      "Any chance you could ...? = ~してもらえたりする?(くだけた依頼)。",
+      "knock ... off the price = 値段を~分まけてくれる。bucks = ドル(口語)。",
+    ],
+    words: [
+      { word: "bucks", meaning: "ドル(buckの複数、口語)" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c123",
+    en: "This keyboard feels so creamy to type on, I'm totally obsessed.",
+    ja: "このキーボード、打鍵感がめちゃくちゃクリーミーで最高、もう完全にハマってる。",
+    notes: [
+      "creamy = (打鍵感が)滑らかでなめらかな(キーボード好きの定番表現)。",
+      "be obsessed = ハマっている、夢中になっている。",
+    ],
+    words: [
+      { word: "creamy", meaning: "なめらかな、クリーミーな" },
+      { word: "obsessed", meaning: "夢中になった、取りつかれた" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c124",
+    en: "Forty-nine keys are more than enough for me.",
+    ja: "49個もキーがあれば十分すぎるくらいだよ。",
+    notes: [
+      "more than enough = 十分すぎる、有り余るほど。",
+    ],
+    words: [],
+    source: "conversation",
+  },
+  {
+    id: "c125",
+    en: "The shop assistant is a woman wearing haori jacket.",
+    ja: "店員さんは、羽織を着てる女性だよ。",
+    notes: [
+      "over there = あそこの、向こうにいる。",
+      "wearing ... が後ろからwomanを修飾する分詞句。haori = 羽織(着物の上着)。",
+    ],
+    words: [
+      { word: "shop assistant", meaning: "店員" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c126",
+    en: "Technically you're not supposed to wear a haori with a yukata; it goes with kimono like tsumugi instead.",
+    ja: "厳密には浴衣に羽織は合わせないことになってて、羽織を着るなら紬とかの着物に合わせるんだよ。",
+    notes: [
+      "be supposed to = ~することになっている(ルールや決まり)。",
+      "go with = ~に合う、調和する。",
+    ],
+    words: [
+      { word: "technically", meaning: "厳密に言えば" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c127",
+    en: "Rules aside, if you're just wearing it for fun, I say style it however you like.",
+    ja: "ルールはともかく、普段のおしゃれで着るだけなら、好きなように着こなしちゃえばいいと思うな。",
+    notes: [
+      "... aside = ~はさておき、~はともかく。",
+      "however you like = 好きなように。I say ... = ~だと思うよ(くだけた意見の切り出し)。",
+    ],
+    words: [
+      { word: "style", meaning: "着こなす、コーディネートする(style)" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c128",
+    en: "It's been so hot lately, so it's totally fine to switch up your outfit to match the temperature.",
+    ja: "最近すごく暑いから、気温に合わせて衣替えしちゃって全然オッケーだよ。",
+    notes: [
+      "switch up = 変える、切り替える(口語)。",
+      "to match ... = ~に合わせて。totally fine = 全然問題ない。",
+    ],
+    words: [
+      { word: "outfit", meaning: "服装、コーディネート" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c129",
+    en: "Kimono come in awase, hitoe, and usumono, and you switch them out depending on the temperature.",
+    ja: "着物には袷、単衣、薄物があって、気温ごとに衣替えして着分けるんだよ。",
+    notes: [
+      "come in ... = (種類が)~に分かれている、~がある。",
+      "switch out = 取り替える。depending on = ~に応じて。",
+    ],
+    words: [],
+    source: "conversation",
+  },
+  {
+    id: "c130",
+    en: "So what kind of patterns or colors are you into?",
+    ja: "それで、どんな柄とか色が好みなの?",
+    notes: [
+      "what kind of ...? = どんな種類の~?",
+      "be into = ~が好き、~に興味がある(口語)。",
+    ],
+    words: [
+      { word: "patterns", meaning: "柄、模様(pattern)" },
+    ],
+    source: "conversation",
+  },
+  {
+    id: "c131",
+    en: "Honestly, it's pretty rare to see people wearing kimono in daily life here now. But because of that, we have this amazing treasure trove of vintage kimonos. I'm just so in love with them, and I really want to share that with everyone around the world. I hope you find something here that speaks to you!",
+    ja: "正直、今ここ(日本)で毎日着物を着ている人を見かけるのは珍しいことなんです。でもそのおかげで、こうして素晴らしいヴィンテージの着物たちがたくさん手に入るんですよ。私は着物が大好きで、この魅力を世界中の皆さんと分かち合いたいんです。ここでお気に入りの一枚が見つかるといいですね!",
+    notes: [
+      "treasure trove = (掘り出し物の)宝庫、宝の山。",
+      "be in love with = ~が大好きである、~に夢中である。",
+      "something that speaks to you = (人の)心に響くもの、ぐっとくるもの。speak to = 心に訴えかける。",
+    ],
+    words: [
+      { word: "treasure trove", meaning: "宝庫、宝の山" },
+      { word: "vintage", meaning: "年代物の、ヴィンテージの" },
+    ],
+    source: "conversation",
+  },
 ];
