@@ -2073,4 +2073,19 @@ export const SENTENCES: Sentence[] = [
     ],
     source: "conversation",
   },
+  {
+    id: "c132",
+    en: "It's a shame they're not worn as often anymore, but I think they deserve to be seen and loved all over the world.",
+    ja: "もう普段着られることが少なくなったのは残念ですが、世界中で見られて、愛されるべきものだと思うんです。",
+    notes: [
+      "It's a shame (that) ... = ~なのは残念だ。",
+      "not ... anymore = もはや~ない。as often = 以前ほど頻繁には。",
+      "deserve to be ... = ~されるに値する、~されるべきだ。",
+    ],
+    words: [
+      { word: "shame", meaning: "残念なこと" },
+      { word: "deserve", meaning: "~に値する、~されるべきである" },
+    ],
+    source: "conversation",
+  },
 ];
